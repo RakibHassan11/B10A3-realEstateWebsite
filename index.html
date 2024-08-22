@@ -85,7 +85,7 @@
         <div class="navbar-end gap-6">
             <i class="fa-solid fa-magnifying-glass text-2xl text-nav_link_color hidden lg:flex"></i>
             <i class="fa-solid fa-cart-shopping text-2xl text-nav_link_color hidden lg:flex"></i>
-            <a class="btn text-base lg:text-xl font-bold bg-common_button_color py-0.5 lg:py-4 px-2 lg:px-6 ml-6 flex-nowrap hidden lg:flex">Book Consult <i class="fa-solid fa-circle-arrow-up fa-rotate-by" style="--fa-rotate-angle: 50deg;"></i></a>
+            <a class="btn text-base lg:text-xl font-bold bg-common_button_color py-0.5 lg:py-4 px-2 lg:px-6 ml-6 flex-nowrap hidden lg:flex rounded-3xl">Book Consult <i class="fa-solid fa-circle-arrow-up fa-rotate-by" style="--fa-rotate-angle: 50deg;"></i></a>
 
             <button class="btn btn-square btn-ghost lg:hidden">
                 <svg
@@ -198,13 +198,61 @@
     </div>
    </section>
    <!--Next Project Section  -->
-   <section>
-    <div class="text-center py-9">
+   <section class="bg-white_color p-5">
+    <div class="text-center py-9 ">
         <button class="px-4 py-1 bg-green-100 rounded-2xl text-sm"><i class="fa-solid fa-arrow-right-long"></i> Let’s Connect</button>
         <h1 class="py-3 text-3xl lg:text-5xl font-extrabold text-black">Let’s Discuss Next Project</h1>
         <p class="py-3 text-base">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
     </div>
+    <div class="flex-1 ">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <div>
+                <input type="text" placeholder="First Name*"
+                    class="input input-bordered input-md w-full p-5 border-none bg-white text-lg rounded-3xl" />
+            </div>
+            <div>
+                <input type="text" placeholder="Last Name*"
+                    class="input input-bordered input-md w-full p-5 border-none bg-white text-lg rounded-3xl" />
+            </div>
+            <div>
+                <input type="text" placeholder="Phone Number*"
+                    class="input input-bordered input-md w-full p-5 border-none bg-white text-lg rounded-3xl" />
+            </div>
+            <div>
+                <input type="text" placeholder="Email Address*"
+                    class="input input-bordered input-md w-full p-5 border-none bg-white text-lg rounded-3xl" />
+            </div>
+        </div>
+        <div>
+            <textarea placeholder="Write your message here*"
+                class="textarea textarea-bordered textarea-md w-full p-5 h-[250px] border-none bg-white text-lg mt-5 rounded-3xl"></textarea>
+        </div>
+        <div>
+            <button
+                class="btn text-xl font-bold text-common_heading_color block mb-4 w-full mt-8 text-black bg-common_button_color rounded-3xl">Send Mail <i class="fa-solid fa-circle-arrow-up fa-rotate-by" style="--fa-rotate-angle: 50deg;"></i></button>
+        </div>
+    </div>
+</div> 
    </section>
  </main>
+ <!-- Footer Section -->
+  <footer class="bg-black">
+    <div class="text-center py-9 ">
+        <h1 class="py-3 text-3xl lg:text-4xl font-extrabold text-white"><i class="fa-solid fa-circle-arrow-up fa-rotate-by" style="color: #12ce15;--fa-rotate-angle: 50deg;"></i> Rinterio</h1>
+        <p class="py-2 text-sm lg:text-base text-white_color">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+
+        <div class="text-white text-center lg:flex lg:justify-around p-3">
+            <div>Home</div>
+            <div>Services</div>
+            <div>Portfolio</div>
+            <div>Blogs</div>
+            <div>Contact Us</div>
+        </div>
+<br>
+        <div>
+            <button class="btn text-xl font-bold text-common_heading_color  mb-4 mt-8 text-black bg-common_button_color rounded-3xl">Book Consult<i class="fa-solid fa-circle-arrow-up fa-rotate-by" style="--fa-rotate-angle: 50deg;"></i></button>
+        </div>
+    </div>   
+  </footer>
 </body>
 </html>
